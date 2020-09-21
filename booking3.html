@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+<header style="height: 100px;">
+    <div id="navbar">
+        <a href="index.html">Home</a>
+        <a class="active" href="comingSoon.html">Coming Soon</a>
+        <a href="booking1.html">Bookings</a>
+        <a href="about.html">About Us</a>
+        <a href="contactUs.html">Contact</a>
+    </div>
+</header>
+<div class="container">
+        <form id="form3" action="index.html">
+            
+            <div>
+                <label for="name">Name: </label><input type="text" id="name" placeholder="Type your name..." required>
+            </div>
+            <div>
+                <label for="email">E-mail:</label><input type="email" id="email" placeholder="your E-mail" required>
+            </div>
+            <div>
+                <label for="Phone">Phone Number:</label><input type="number" placeholder="Phone number" required style=" -webkit-appearance: none;
+                margin: 0; -moz-appearance: textfield;">
+            </div>
+            <div>
+                <label for="visa">Visa:</label><input type="number" id="visa" placeholder="Visa number" required style=" -webkit-appearance: none;
+                margin: 0; -moz-appearance: textfield;">
+            </div>
+            <div>
+                <button type="submit" onclick="alert('your booking has been confirmed')">Confirm</button>
+            </div>
+        </form>
+                </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body >
+<header style="height: 100px;">
+    <div id="navbar">
+        <a href="index.html">Home</a>
+        <a class="active" href="comingSoon.html">Coming Soon</a>
+        <a href="booking1.html">Bookings</a>
+        <a href="about.html">About Us</a>
+        <a href="contactUs.html">Contact</a>
+    </div>
+</header>
+<div class="container">
+        <form id="form1" action="booking2.html" oninput="output.value=ticketPrice*tickets.value">
+            <div>
+                 <label for="Movie">Select a Movie:</label>
+                 <select name="Movie" id="movieChoice" form="movieForm">
+                    <option value="Mulan">Mulan</option>
+                    <option value="Tenet">Tenet</option>
+                    <option value="Peninsula">100% Wolf</option>
+                    <option value="Unhinged">The Blue Whale</option>
+                    <option value="The Nest">Sniper: Assassin's End</option>
+                    <option value="newMutants">The New Mutants</option>
+                    <option value="noWayBack">No Way Back</option>
+                    <option value="Face the Music">El Ghasala</option>
+                    <option value="theHunt">The Hunt</option>
+                 </select>
+            </div>
+            <div>
+                    <label for="date">Select a Date:</label>
+                     <select name="day" id="day" form="dayform">
+                         <option value="today">Today</option>
+                         <option value="tomorrow">Tomorrow</option>
+                    </select>
+            </div>
+            <div>
+                         <label for="time">Select Showtime:</label>
+                         <Select name="time" id="movieTime" form="timeForm">
+                             <option>10:00am</option>
+                             <option>12:45pm</option>
+                             <option>3:45pm</option>
+                             <option>6:45pm</option>
+                             <option>10:00pm</option>
+                         </Select>
+            </div>
+            <div>
+            <label for="ticket">Number of tickets:</label>
+            <input type="number" id="tickets" max="10" min="1" value="1" name="tickets">
+            </div>
+            <div>
+                <output name="output" for="tickets">70</output>L.E.
+            </div>
+        <div>
+         <button id="b1" type="submit" onclick="saveSeats()">Next</button>   
+        </div> 
+        </form> 
+                        
+</div>
+<script type="text/javascript" src="booking.js"></script>
+</body>
+</html>

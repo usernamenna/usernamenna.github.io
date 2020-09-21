@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <header style="height: 100px;"></header>
+    <div class="container" >
+        <form id="form" action="index.html">
+            <legend>Login</legend>
+            <div>
+                <input type="text"  id="username" placeholder="Enter Username" required>
+            </div>
+            <div>
+                <input type="password"  id="password" placeholder="Enter Password" required>
+            </div>
+            <div>
+                <a href="signup.html" style="font-size: small;">Don't have an account?</a>
+               <button onclick="checkAdmin()">Sign In</button>
+            </div>
+        </form>
+        
+    </div>
+    <script type="text/javascript" src="sign.js"></script>
+</body>
+</html>

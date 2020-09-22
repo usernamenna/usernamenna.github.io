@@ -39,7 +39,6 @@ td {
 
 }
 
-
 .movie {
     background-color: rgba(165, 42, 42);
     width: 300px;
@@ -54,10 +53,6 @@ td {
 .tenet span {
     background-color: inherit;
 }
-
-
-
-
 #myBtn {
     background-color: inherit;
 }
@@ -109,7 +104,6 @@ body,
 .slide3 {
     background-image: url("https://images.wallpapersden.com/image/download/the-new-mutants-2020_69793_1920x1080.jpg");
 }
-
 .slide-content {
     display: flex;
     flex-direction: column;
@@ -167,4 +161,19 @@ li
 .credit
 {
     font:17px;
+}
+.logout{
+
+    position:fixed;
+    right:10px;
+    top:5px;
+    font-family: sans-serif;
+ }
+.logO
+{
+    display: none;
+}
+.Logi
+{
+    display: block;
 }

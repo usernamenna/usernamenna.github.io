@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sign.css">
-  
+    <title>Sign Up</title>
 </head>
 <body>
     <header style="height: 100px;"></header>
@@ -12,7 +12,7 @@
         <form id="form" action="index.html">
             <legend>Sign Up</legend>
             <div>
-                <input type="email"  id="email" placeholder="Enter Email" required>
+                <input type="email"  id="email" placeholder="Enter Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="ex: characters@characters.domain" required>
             </div>
             <div>
                 <input type="text"  id="username2" placeholder="Enter username" required>

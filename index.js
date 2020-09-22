@@ -56,3 +56,16 @@ arrowRight.addEventListener('click', function () {
     slideRight();
 })
 startSlide();
+
+//displaying the logout button
+function loggingOut()
+{
+    var element= document.getElementById("submit");
+    var displaySetting = element.style.display;
+    if (displaySetting == 'block') {
+        element.style.display = 'none';
+      }
+      else {
+        element.style.display = 'block';
+       }
+}

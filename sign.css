@@ -44,7 +44,7 @@ form {
 
 body {
     font-family: 'Effra', Tahoma, Arial, Helvetica, sans-serif;
-    background-image: url("Pictures/cinema.jpg");
+    background-image: url("Pictures/cinema2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -105,6 +105,3 @@ a:visited {
 }
 
 
-.dark-mode {
-    background-color: black;
-}

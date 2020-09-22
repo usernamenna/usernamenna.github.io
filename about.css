@@ -2,7 +2,7 @@ body {
     color: white;
    /* background-image: url("Pictures/about%20us.jpg");*/
     background-size: cover;
-
+    background-color:  rgb(236, 236, 236);
 }
 
 #navbar {
